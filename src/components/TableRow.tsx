@@ -30,7 +30,7 @@ export function TableRowComponent({
 
   return (
     <>
-      <tr className="border-b border-gray-200">
+      <tr key={key} className="border-b border-gray-200">
         <td className="px-4 py-2">
           <span style={{ marginLeft: `${level * 20}px` }}>
             {level > 0 && "-- "}
